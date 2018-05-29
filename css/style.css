@@ -25,12 +25,27 @@ p {
 }
 ul {
   font-size: 26px;
-  color: rgba(200, 255, 255, 255)
+  color: white;
 }
 body {
-  background-color: black;
+  background-color: skyblue;
 }
 img {
   margin: 0 auto;
   display: block;
+}
+.theme li {
+  display: inline-block;
+}
+.default {
+  color: white;
+  background-color: skyblue;
+}
+.dark {
+  color: white;
+  background-color: black;
+}
+.light {
+  color: black;
+  background-color: hotpink;
 }
